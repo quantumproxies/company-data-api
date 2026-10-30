@@ -1,0 +1,57 @@
+{
+ "cli": "company-data",
+ "name": "Company Data API",
+ "version": "0.1.0",
+ "description": "Company data API for Python and the command line: one structured company record from a domain, with name, legal name, description, industry, headquarters, office addresses, emails, phones, social profiles, logo and VAT number, as JSON or CSV. Free and open source; sign in with your QuanticData account, no proxies or headless browser to run.",
+ "links": {
+  "repo": "https://github.com/quantumproxies/company-data-api",
+  "page": "https://quanticdata.io/collectors/company-data-api/?utm_source=github&utm_medium=cli&utm_campaign=company-data-api",
+  "billing": "https://app.quanticdata.io/billing?utm_source=github&utm_medium=cli&utm_campaign=company-data-api",
+  "pricing": "https://quanticdata.io/pricing/?utm_source=github&utm_medium=cli&utm_campaign=company-data-api"
+ },
+ "commands": [
+  {
+   "name": "profile",
+   "collector": "company_profile",
+   "method": "profile",
+   "help": "one company record from a domain",
+   "description": "One structured company record from a domain: name, description, industry, HQ, socials, contacts, logo.",
+   "positional": "domain",
+   "positional_is_list": false,
+   "positional_optional": false,
+   "columns": [
+    "domain",
+    "name",
+    "legal_name",
+    "industry",
+    "founded",
+    "headquarters"
+   ],
+   "sample": "company_profile",
+   "inputs": [
+    {
+     "name": "domain",
+     "type": "string",
+     "required": true,
+     "description": "Company domain or site URL.",
+     "arg": "domain"
+    },
+    {
+     "name": "country",
+     "type": "string",
+     "required": false,
+     "description": "ISO 3166-1 alpha-2 code — the site is read as a visitor from this country. Default us, in en-US, so a site that localizes by visitor answers in English.",
+     "arg": "country"
+    },
+    {
+     "name": "use_ai",
+     "type": "boolean",
+     "required": false,
+     "description": "Let an LLM fill description, industry, founding year and headquarters from the pages that were read (default on). --no-use-ai returns only the fields read directly from the pages.",
+     "default": true,
+     "arg": "use_ai"
+    }
+   ]
+  }
+ ]
+}

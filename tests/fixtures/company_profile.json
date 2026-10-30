@@ -1,0 +1,55 @@
+{
+ "run_id": "cmvksnd9r0ugs41o5a864xsqr",
+ "slug": "company_profile",
+ "version": "1.1.1",
+ "status": "done",
+ "input": {
+  "domain": "stripe.com",
+  "use_ai": true
+ },
+ "count": 1,
+ "partial": false,
+ "finished_at": "2026-10-23T09:55:17.960Z",
+ "results": [
+  {
+   "url": "https://stripe.com/",
+   "logo": "https://images.stripeassets.com/fzn2n1nzq965/1hgcBNd12BfT9VLgbId7By/01d91920114b124fb4cf6d448f9f06eb/favicon.svg",
+   "name": "Stripe",
+   "domain": "stripe.com",
+   "emails": [],
+   "phones": [],
+   "tax_id": null,
+   "vat_id": null,
+   "ai_used": true,
+   "founded": null,
+   "socials": {
+    "twitter": "https://twitter.com/stripe",
+    "youtube": "https://youtube.com/@stripe",
+    "facebook": "https://www.facebook.com/StripeHQ",
+    "linkedin": "https://www.linkedin.com/company/stripe/",
+    "instagram": "https://www.instagram.com/stripehq/"
+   },
+   "tagline": "Financial infrastructure to grow your revenue.",
+   "industry": "Financial technology / payments",
+   "language": "en-BR",
+   "addresses": [
+    "60 Anson Road #05-01, 079914, Singapore, SG",
+    "920 5th Avenue, Suite 1900, 98104, Seattle, WA, US",
+    "201 Bishopsgate, 5th Floor, EC2M 3AB, London, GB",
+    "350 N. Orleans, Suite 5000S, 60654, Chicago, IL, US",
+    "28 Liberty Street, 48th floor, 10005, New York, NY, US"
+   ],
+   "employees": null,
+   "vat_group": null,
+   "legal_name": "Stripe, LLC",
+   "pages_used": [
+    "https://stripe.com/",
+    "https://stripe.com/en-br/contact/sales",
+    "https://stripe.com/en-br/about"
+   ],
+   "description": "Stripe is a technology company that builds programmable financial infrastructure. It provides payments, financial services, and custom revenue models to help businesses start and scale.",
+   "headquarters": null
+  }
+ ],
+ "_note": "Real run of 2026-10-23 with use_ai on, kept as delivered."
+}
